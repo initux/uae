@@ -1,25 +1,24 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<body onload="myFunction()">
+    <head>
+        <title>Random Ip</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="ip_random"></div>
+    </body>
+    <script type="text/javascript">
+        
+        var items = ['192.165.2.3','123.234.234.455','195.123.218.39','195.123.18.12','195.113.218.12','109.236.93.150', '109.236.93.169', '109.236.93.177', '109.236.93.203', '109.236.93.211', '109.236.93.213', '109.236.93.218'];
+        var item = items[Math.floor(Math.random()*items.length)];
+        
+        document.getElementById("ip_random").innerHTML = item;
 
-
-
-<p id="demo"></p>
-  <script>
-eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){while(c--){d[c]=k[c]||c}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('<0>3 2(){1.4("5").8=7.6()}</0>',9,9,'script|document|myFunction|function|getElementById|demo|random|Math|innerHTML'.split('|'),0,{}))
-</script>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body onload="myFunction()">
-
-
-
-<p id="demo"></p>
-  
-<script>
-eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){while(c--){d[c]=k[c]||c}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('<0>3 2(){1.4("5").8=7.6()}</0>',9,9,'script|document|myFunction|function|getElementById|demo|random|Math|innerHTML'.split('|'),0,{}))
-  </script>
-</body>
+    </script>
 </html>
